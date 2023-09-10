@@ -1,46 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <link rel="stylesheet" href="style.css">
-            <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Add responsive CSS here */
+        @media screen and (max-width: 768px) {
+            /* Styles for tablets and smaller screens */
+            .mainpage {
+                padding: 10px; /* Adjust the padding as needed */
+            }
+
+            .navbar {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .a {
+                margin: 5px 0;
+                text-align: center;
+            }
+
+            .about {
+                text-align: center;
+            }
+
+            .text {
+                padding: 10px;
+            }
+        }
+
+        @media screen and (max-width: 480px) {
+            /* Styles for phones */
+            .a {
+                font-size: 14px; /* Adjust the font size as needed */
+            }
+        }
+    </style>
+    <title>Document</title>
 </head>
 <body>
-            <div class="mainpage">
-                         <div class="logo">
+    <div class="mainpage">
+        <div class="logo">
+        </div>
+        <div class="navbar">
+            <span class="a1"><a class="a" href=""> Help </a></span>
+            <span class="a2"><a class="a" href="thankyou.html"> Contact Us </a></span>
+            <span class="a3"><a class="a" href="about.html"> About Us </a></span> 
+            <span class="a4 b"><a class="a " href=""> Home </a></span>
+        </div>
+    </div>
 
-                         </div>
-                        <div class="navbar">
-                                    <span class="a1"><a class="a" href=""> Help </a></span>
-                                    <span class="a2"><a class="a" href="thankyou.html"> Contact Us </a></span>
-                                    <span class="a3"><a class="a" href="about.html"> About Us </a></span> 
-                                    <span class="a4 b"><a class="a " href=""> Home </a></span>
-                        </div>
-
-                        
-</div>
-
-<section class="about-us">
-            <div class="about">
-              <img class="logo_animation" src="logo.png" class="pic" />
-              <div class="text">
+    <section class="about-us">
+        <div class="about">
+            <img class="logo_animation" src="logo.png" class="pic" />
+            <div class="text">
                 <h2>About Us</h2>
-                <h5 ><span>Agriartisans</span></h5>
+                <h5><span>Agriartisans</span></h5>
                 <p>Creating an integrated agricultural software
-                  platform, offering waste management guidance,
-                  modern technology adoption resources, real-time
-                  crop pricing data, transportation coordination, organic
-                  material fertilization support, crop storage
-                  management tools, water-efficient techniques, data
-                  analytics for decision-making, user-friendly interface,
-                  and continuous updates with farmer education and
-                  support."</p>
+                    platform, offering waste management guidance,
+                    modern technology adoption resources, real-time
+                    crop pricing data, transportation coordination, organic
+                    material fertilization support, crop storage
+                    management tools, water-efficient techniques, data
+                    analytics for decision-making, user-friendly interface,
+                    and continuous updates with farmer education and
+                    support."</p>
                 <div class="data">
-                  <a href="#" class="hire">OUR TIME</a>
+                    <a href="#" class="hire">OUR TIME</a>
                 </div>
-              </div>
             </div>
-          </section>
+        </div>
+    </section>
 </body>
-</html>  
+</html>
