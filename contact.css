@@ -1,0 +1,42 @@
+
+body {
+            font-family:Georgia, 'Times New Roman', Times, serif ; 
+              margin: 0;
+            }
+            
+.navbar
+{
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-around;
+            font-size: 1.4rem;
+            font-weight: bold;
+            padding-left: 1000px;
+            padding-top: 30px;
+            transition: all 1.2s ease-in;
+}
+.a
+{
+            text-decoration: none;  
+            color: #474e47;  
+}
+
+.a1:hover 
+{
+            transform: scale(0.9);
+}
+.a3:hover 
+{
+            transform: scale(0.9);
+}
+.a4:hover 
+{
+            transform: scale(0.9);
+}
+.b
+{
+            text-decoration: underline 4px rgb(21, 50, 21);
+            text-decoration: bolder;
+            margin-top: -6px;
+            font-size: 1.6rem;              
+}
